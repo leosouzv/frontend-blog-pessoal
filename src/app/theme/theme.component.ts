@@ -44,11 +44,4 @@ export class ThemeComponent implements OnInit {
     })
   }
 
-  deleteById(){
-
-  }
-
-  editById(){
-    
-  }
 }
