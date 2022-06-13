@@ -29,7 +29,7 @@ export class PostagemService {
     return this.http.post<Postagem>('http://localhost:8080/postagens', postagem, this.token);
   }
 
-  putPostagem(postagem: Postagem): Observable<Postagem> {
+  putPostagem(postagem: Postagem):Observable<Postagem>{
     return this.http.put<Postagem>('http://localhost:8080/postagens', postagem, this.token)
   }
 
