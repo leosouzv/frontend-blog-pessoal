@@ -14,6 +14,8 @@ import { SigninComponent } from './signin/signin.component';
 import { ThemeComponent } from './theme/theme.component';
 import { ThemeEditComponent } from './edit/theme-edit/theme-edit.component';
 import { ThemeDeleteComponent } from './delete/theme-delete/theme-delete.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { ThemeDeleteComponent } from './delete/theme-delete/theme-delete.compone
     SigninComponent,
     ThemeComponent,
     ThemeEditComponent,
-    ThemeDeleteComponent
+    ThemeDeleteComponent,
+    PostagemEditComponent,
+    PostagemDeleteComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Postagem } from "./Postagem"
+import { Postagem } from "./Postagem";
 
 export class User{
     public id: number
@@ -8,3 +8,5 @@ export class User{
     public foto: string
     public postagem: Postagem[]
 }
+
+// Exporta essas informações da classe 'User' para outros lugares
